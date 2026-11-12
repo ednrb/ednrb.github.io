@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eden Rebello — CV</title>
+<meta name="robots" content="noindex">
+<!-- Source for cv.pdf. To rebuild: open this page in Chrome and print to PDF (Letter, no headers and footers). -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  @page { size: Letter; margin: 0.4in 0.55in; }
+  * { box-sizing: border-box; }
+  body { margin: 0 auto; max-width: 7.3in; padding: 24px 16px; color: #111; background: #fff; font: 9.3pt/1.32 "Tiro Bangla", Georgia, serif; }
+  @media print { body { padding: 0; max-width: none; } }
+  a { color: inherit; text-underline-offset: 2px; text-decoration-thickness: .5px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  h1 { margin: 0; font-weight: 400; font-size: 20pt; line-height: 1.1; }
+  header p { margin: 0; text-align: right; }
+  h2 { break-after: avoid; margin: 8pt 0 4pt; padding-bottom: 2pt; border-bottom: .75pt solid #111; font-weight: 400; font-size: 12pt; }
+  .item { margin: 0 0 4pt; break-inside: avoid; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  h3 { margin: 0; font-weight: 400; font-size: 10pt; }
+  li b { font-weight: 400; font-style: italic; }
+  .date { white-space: nowrap; color: #444; }
+  .sub { margin: 0; font-style: italic; color: #444; }
+  p { margin: 1pt 0 0; }
+  ul { margin: 2pt 0 0; padding-left: 14pt; }
+  li { margin: 1pt 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Eden Rebello</h1>
+  <p><a href="https://edenrebello.me">edenrebello.me</a> · <a href="mailto:edenvr2@illinois.edu">edenvr2@illinois.edu</a> · <a href="https://github.com/ednrb">github.com/ednrb</a> · <a href="https://www.linkedin.com/in/edenrebello/">linkedin.com/in/edenrebello</a></p>
+</header>
+
+<h2>Education</h2>
+<div class="item">
+  <div class="row"><h3>University of Illinois Urbana-Champaign</h3><span class="date">Jan 2027 – May 2030</span></div>
+  <p class="sub">B.S. Computer Science, The Grainger College of Engineering · B.S. Statistics</p>
+</div>
+<div class="item">
+  <div class="row"><h3>Dubai American Academy</h3><span class="date">Aug 2022 – May 2026</span></div>
+  <p class="sub">IB Diploma, High School Diploma · 3.98 cumulative GPA</p>
+</div>
+
+<h2>Projects</h2>
+<div class="item">
+  <div class="row"><h3><a href="https://github.com/gabriel-gy-tan/sahl">Sahl</a> — local-AI desktop app that tells you which form box comes next, in your language, and fills it</h3><span class="date">Nov 2026 – now</span></div>
+  <p class="sub">With Gabriel Tan · contending in the UAE Hackathon 2026 · open source</p>
+  <ul>
+    <li>Fully local: Qwen3-VL and Qwen3 run on-device via llama.cpp with Indra OCR, reading passports and Emirates IDs.</li>
+    <li>Box finding passes about 96% on randomly drawn form layouts; form picker scores 15/15 held-out, 13/15 fresh.</li>
+    <li>Tauri 2 (Rust), React, a Python sidecar, and a Manifest V3 extension. English, Arabic, Urdu, and Malayalam.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><h3><a href="https://edenrebello.me/dumbify">Dumbify</a> — a calm, text-first YouTube</h3><span class="date">Jun 2026 – now</span></div>
+  <p class="sub">Chrome &amp; Firefox extension · with Gabriel Tan · 52 active users at peak · open source (GPL-3.0)</p>
+  <ul>
+    <li>Uses YouTube's own data and InnerTube API, so subscribing, liking, and commenting work with your session.</li>
+    <li>TypeScript and plain DOM, no framework or runtime dependencies; end-to-end tests in headless Chromium.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><h3><a href="https://edenrebello.me/yahmi">Yahmi</a> — invoice fraud protection for UAE businesses</h3><span class="date">Oct 2026</span></div>
+  <ul>
+    <li>Checks an invoice before you pay it: IBAN and TRN validation, UAE bank codes, and reply-to mismatch warnings.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><h3><a href="https://github.com/ednrb/lesion-classifiers">Empirical research: ML and DL models for skin cancer diagnosis</a></h3><span class="date">2026</span></div>
+  <ul>
+    <li>Compared ML and DL models on 25,000+ dermoscopic images (HAM10000, ISIC); 3,900-word paper found CNNs most reliable.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><h3><a href="https://github.com/ednrb/pause">Pause</a> — macOS eye-health app</h3><span class="date">Sep 2026</span></div>
+  <ul>
+    <li>Covers every monitor with a full-screen break after an interval you pick. SwiftUI, open source, CS50x final project.</li>
+  </ul>
+</div>
+
+<h2>Experience</h2>
+<div class="item">
+  <div class="row"><h3>Web Developer &amp; SEO, Elden Interior Design</h3><span class="date">Apr – Oct 2026</span></div>
+  <p class="sub">Contract · Dubai, UAE · <a href="https://eldenuae.com">eldenuae.com</a></p>
+  <ul>
+    <li><b>Cost:</b> moved hosting, DNS, and domain from GoDaddy to Cloudflare, cutting cost 93% (AED 1,200 to 80 a year).</li>
+    <li><b>Rebuild:</b> moved the site from WordPress to static Astro, Tailwind, and TypeScript, with a GSAP and Lenis animation layer.</li>
+    <li><b>Content:</b> typed content system for 34 projects and articles, generated from Markdown so the client needs no code.</li>
+    <li><b>Contact without a backend:</b> wrote a Cloudflare Worker that emails form submissions to the team through the Resend API.</li>
+    <li><b>SEO and analytics:</b> content strategy for search and AI answer engines; Google Analytics 4 loads only after consent.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><h3>Technical Specialist, Care &amp; Cure Pharmacy</h3><span class="date">Mar 2026</span></div>
+  <p class="sub">Contract · Dubai, UAE</p>
+  <ul>
+    <li>Set up the pharmacy's online presence from scratch: domain, DNS, a static site on Cloudflare Pages, and email aliases.</li>
+    <li>Set up Google Business Profile, Apple Business Connect, social accounts, and delivery through Deliveroo and Talabat.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><h3>Generative AI Research Intern, RuDo Wealth</h3><span class="date">Jul – Aug 2025</span></div>
+  <p class="sub">DIFC, Dubai</p>
+  <ul>
+    <li>Researched generative video tools (HeyGen, Synthesia, D-ID) with the CEO; A/B tested a custom HeyGen avatar in emails.</li>
+  </ul>
+</div>
+<div class="item">
+  <div class="row"><h3>Web Development Intern, RuDo Wealth</h3><span class="date">Aug – Sep 2024</span></div>
+  <p class="sub">DIFC, Dubai</p>
+  <ul>
+    <li>Worked with the CEO on web app design changes, including dark mode; built a live compound interest calculator.</li>
+  </ul>
+</div>
+
+<h2>Courses &amp; Skills</h2>
+<div class="item">
+  <p><b style="font-weight:400">Courses:</b> CS50AI, Harvard via edX (in progress) · CS50x · CS50P (Aug 2025) · Career Essentials in GitHub (Jun 2026)</p>
+  <p><b style="font-weight:400">Languages:</b> Python, SQL, C, CSS · <b style="font-weight:400">Technologies:</b> Claude Code, Cloudflare, PyTorch, scikit-learn</p>
+</div>
+</body>
+</html>
